@@ -1,0 +1,4 @@
+# Keep shell scripts LF so they still run after a clone on any platform.
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
