@@ -16,7 +16,6 @@ Press "Fork" on GitHub. You now have your own copy, under your own account.
 Clone *your* fork, not the original:
 
     git clone https://github.com/<your-username>/gd2000-exam-practice.git
-    cd gd2000-exam-practice
 
 ## 3. Run the script
 
@@ -50,18 +49,11 @@ Fill in `exam-review.md`. Six questions, a few sentences each.
 
 This is the part you are practicing. Stage and commit these:
 
-    git add cards/script-cards.md
-    git add rules/draft-rules.md
-    git add exam-review.md
-    git commit -m "Add cards, rules, and exam review answers"
+- cards/script-cards.md
+- rules/draft-rules.md
+- exam-review.md
 
-Do **not** commit `playtest/`. Those files should stay untracked. Run
-
-    git status
-
-and you should see them listed under "Untracked files". Leave them there.
-That is the point of the exercise: you are choosing which changes go in and
-which do not.
+Do **not** commit `playtest/`. Those files should stay untracked.
 
 ## 7. Push
 
