@@ -27,3 +27,11 @@
 
 Add one rule of your own here, and say what it does. A sentence or two is
 plenty.
+The starting player is determined by flipping the player token, with the token being 
+passed back and forth after every battle phase. this changes who goes first and keeps 
+the game balanced.
+
+## Script-generated rules
+
+- A unit that survives combat gains 1 health.
+- A player with no units at the start of a round loses 2 health.
